@@ -8,8 +8,8 @@
 include 'tri_req.php';
 $tri = new tri();
 $imei = "868880043302499";
-echo  "SELAMAT DATANG Di TOOLS F4DLIGANS:"
-echo "NOTE:JANGAN MARUK!!!JANGAN DI JUAL YA!!:"
+echo  "SELAMAT DATANG Di TOOLS F4DLIGANS: ";
+echo "NOTE:JANGAN MARUK!!!JANGAN DI JUAL YA!!: ";
 echo "Masukkan No Telepon : ";
 $msisdn = trim(fgets(STDIN));
 $otp = $tri->request_otp($msisdn,$imei);
